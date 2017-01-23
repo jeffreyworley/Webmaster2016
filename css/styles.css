@@ -1,0 +1,266 @@
+html {
+	background-color: #d1d1d1;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.dropdown-menu a {
+	font-size: 18px;
+	margin: 10px 0;
+}
+.jumbotron.sub {
+	height: 500px !important;
+	margin:0 !important;
+}
+.jumbotron.low {
+	height: 400px !important;
+	margin: 0 !important;
+}
+#home-pic {
+	background: url(../img/home-pic.jpg) no-repeat;
+	background-size: cover;
+	background-position:center;
+	height: 800px;
+	margin-bottom: 0;
+	padding-bottom: 300px;
+	min-height: 100%; 
+  	min-height: 100vh;
+  	display: flex;
+  	align-items: center;
+}
+#home-pic h1, #home-pic-sm h2 {
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+}
+#home-pic-sm {
+	background: url(../img/home-pic-sm.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-origin: content-box;
+	margin-bottom: 0;
+	height: 960px;
+	padding-top: 200px;
+}
+#home-pic-sm .btn-top {
+	margin-bottom: 300px;
+}
+.vertical-center {
+  min-height: 100%; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#techcourse {
+	background: url(../img/techcourses.jpg) no-repeat center;
+	background-size: cover;
+}
+#concerns {
+	background: url(../img/concerns.jpg) no-repeat center;
+	background-size: cover;
+}
+#careercenter {
+	background: url(../img/careercenter.jpg) no-repeat center;
+	background-size: cover;
+	color: #FFF;
+}
+#gti {
+	background: url(../img/gti.jpg) no-repeat center;
+	background-size: cover;
+}
+#internship {
+	background: url(../img/internship.jpg) no-repeat center;
+	background-size: cover;
+}
+#skyline-tsa {
+	background: url(../img/skyline-tsa.jpg) no-repeat center;
+	background-size: cover;
+}
+#service-projects {
+	background: url(../img/service.jpg) no-repeat center;
+	background-size: cover;
+}
+#service-projects-2 {
+	background: url(../img/service-boom.jpg) no-repeat center;
+	background-size: cover;
+}
+#service-projects-3 {
+	background: url(../img/service-food.jpg) no-repeat center;
+	background-size: cover;
+}
+#tsa-about {
+	background: url(../img/about.jpg) no-repeat center;
+	background-size: cover;
+}
+#about {
+	background: url(../img/work-cited.jpg) no-repeat center;
+	background-size: cover;
+}
+#uses{
+	background: url(../img/uses.jpg) no-repeat center;
+	background-size: cover;
+}
+#vex {
+	background: url(../img/vex.jpg) no-repeat center;
+	background-size: cover;
+}
+#competitions-head {
+	background: url(../img/competitions-head.jpg) no-repeat center;
+	background-size: cover;
+}
+#leadership {
+	background: url(../img/leadership.jpg) no-repeat;
+	background-size: cover;
+}
+#vex-img {
+	background: url(../img/vex-img.jpg) no-repeat center;
+	height: 210px;
+	width: 100%;
+}
+#future {
+	background: url(../img/future.jpg) no-repeat center;
+	background-size: cover;
+}
+#technology {
+	background: url(../img/technology.jpg) no-repeat center;
+	background-size: cover;
+}
+#design-brief {
+	background: url(../img/design-brief.jpg) no-repeat center;
+	background-size: cover;
+}
+#history {
+	background: url(../img/history.jpg) no-repeat;
+	background-size: cover;
+}
+.comp-descrip {
+	padding-top: 40px;
+}
+.jumbotron h1{
+	padding-top: 150px !important;
+	color: #FFF !important;
+	text-shadow: 2px 2px #000000 !important;
+}
+.jumbotron h2 {
+	padding-top: 50px;
+}
+#computer-programming, #sign-up, #description {
+	background-color: #035987;
+	color: #EDEDED;
+}
+#computer-literacy, #transportation, #education, #school-chapters {
+	background-color: #E1E1E1;
+	color: #424242;
+}
+#computer-literacy, #education, #school-chapters hr {
+	border-color: #424242;
+}
+.sited {
+	width: 400px;
+	margin:0 auto;
+}
+#digital-media, #vex-info, #competitions {
+	background-color: #6C7DA2;
+	color: #EDEDED;
+}
+#digital-media hr {
+	border-color: #EDEDED;
+}
+.class {
+	margin: 20px 0;
+}
+.skyline {
+	margin-top: 80px;
+}
+.career-center p {
+	margin-bottom: 30px;
+}
+.career-center a {
+	margin: 30px;
+}
+.career-center {
+	padding-top: 40px;
+}
+.btn-gti {
+	margin: 15px;
+}
+#transportation.row {
+	padding-bottom: 30px
+}
+#contact-info {
+	padding-bottom: 30px;
+}
+#leaders img {
+	max-height: 300px;
+	margin: auto;
+}
+.gti-btn {
+	width: 200px
+}
+.vex-pics img, .leaders img {
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+}
+#btn-home {
+	margin: 7px 0;
+	height: 35px;
+}
+footer {
+	background-color: #E1E1E1;
+	padding: 20px 0 10px 0;
+}
+@media screen and (min-width: 1200px) {
+	#commercial img {
+		margin-top: 50px;
+	}
+	#brief p {
+		margin-top: 60px;
+	}
+	#future-holds p {
+		margin-top: 20px;
+	}
+	#privacy p, #safety p {
+		margin-top: 50px;
+	}
+	#solving-future img {
+		margin-top: 10px;
+	}
+	#leaders h4 {
+		padding-top: 50px;
+	}
+	.dropdown-toggle {
+		font-size: 20px;
+		font-weight: 500;
+		margin: 2px 10px
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	#commercial img {
+		margin-top: 150px;
+	}
+	#educational img {
+		margin-top: 50px;
+	}
+	#brief p {
+		margin-top: 20px;
+	}
+	#solving-future img {
+		margin-top: 40px;
+	}
+	#leaders h4 {
+		padding-top: 50px;
+	}
+	.dropdown-toggle {
+		font-size: 20px;
+		font-weight: 500;
+		margin: 2px 10px
+	}
+}
+@media screen and (max-width: 767px) {
+	.dropdown-toggle {
+		font-size: 12px;
+		font-weight: 500;
+		margin: 2px 10px;
+	}
+}
